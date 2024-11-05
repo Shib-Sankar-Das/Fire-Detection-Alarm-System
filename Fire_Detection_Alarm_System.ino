@@ -3,12 +3,12 @@
 #include <DHT.h>
 
 // Firebase settings
-#define FIREBASE_HOST "https://weather-app-9b23b-default-rtdb.firebaseio.com"  // Firebase host without "https://"
-#define FIREBASE_AUTH "hu50iiS4OVTdG4OzBqoxf5ri2IQSTEtfRZS1e2Sa"       // Firebase authentication token
+#define FIREBASE_HOST "https://firebase.com"  // Firebase host URL"
+#define FIREBASE_AUTH "Firebase_authentication_token"       // Firebase authentication token
 
 // WiFi credentials
-#define WIFI_SSID "B_Cable_Network"          // Your WiFi SSID
-#define WIFI_PASSWORD "9903585313"           // Your WiFi password
+#define WIFI_SSID "WIFI_NAME"          // Your WiFi SSID
+#define WIFI_PASSWORD "WIFI_PASSWORD"           // Your WiFi password
 
 // Sensor and alarm pin definitions
 #define DHTPIN 13            // DHT11 data pin connected to GPIO 13
